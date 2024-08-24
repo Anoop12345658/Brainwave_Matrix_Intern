@@ -47,7 +47,7 @@ function App() {
     <section>
       <div className="circle" style={{ backgroundColor: circleColor }}></div>
       <header>
-        <a href="/"><img src="/images/logo.png" className="logo" alt="Starbucks Logo" /></a>
+        <a href="/"><img src={`${process.env.PUBLIC_URL}/images/logo.png`} className="logo" alt="Starbucks Logo" /></a>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/">Menu</a></li>
@@ -62,18 +62,18 @@ function App() {
           <a href="/" className="button">Learn More</a>
         </div>
         <div className="imgBox">
-        <img src={`/images/drinks/${currentImage}`} className="starbucks" alt="Starbucks Drink" />
+        <img src={`${process.env.PUBLIC_URL}/images/drinks/${currentImage}`} className="starbucks" alt="Starbucks Drink" />
         </div>
       </div>
       <ul className="thumb">
-      <li><img src="/images/thumbs/thumb1.png" onClick={() => imgSlider('img1.png', '#017143')} alt="Thumb 1" /></li>
-      <li><img src="/images/thumbs/thumb2.png" onClick={() => imgSlider('img2.png', '#eb7495')} alt="Thumb 2" /></li>
-      <li><img src="/images/thumbs/thumb3.png" onClick={() => imgSlider('img3.png', '#d752b1')} alt="Thumb 3" /></li>
+      <li><img src={`${process.env.PUBLIC_URL}/images/thumbs/thumb1.png`} onClick={() => imgSlider('img1.png', '#017143')} alt="Thumb 1" /></li>
+      <li><img src={`${process.env.PUBLIC_URL}/images/thumbs/thumb2.png`} onClick={() => imgSlider('img2.png', '#eb7495')} alt="Thumb 2" /></li>
+      <li><img src={`${process.env.PUBLIC_URL}/images/thumbs/thumb3.png`} onClick={() => imgSlider('img3.png', '#d752b1')} alt="Thumb 3" /></li>
       </ul>
       <ul className="sci">
-      <li><a href="/"><img src="/images/icons/facebook.png" alt="Facebook" /></a></li>
-      <li><a href="/"><img src="/images/icons/twitter.png" alt="Twitter" /></a></li>
-      <li><a href="/"><img src="/images/icons/instagram.png" alt="Instagram" /></a></li>
+      <li><a href="/"><img src={`${process.env.PUBLIC_URL}/images/icons/facebook.png`} alt="Facebook" /></a></li>
+      <li><a href="/"><img src={`${process.env.PUBLIC_URL}/images/icons/twitter.png`} alt="Twitter" /></a></li>
+      <li><a href="/"><img src={`${process.env.PUBLIC_URL}/images/icons/instagram.png`} alt="Instagram" /></a></li>
       </ul>
     </section>
   );
