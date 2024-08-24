@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Brainwave_Matrix_Intern/static/css/main.7eda831d.css",
+    "main.js": "/Brainwave_Matrix_Intern/static/js/main.8baf9f0e.js",
+    "index.html": "/Brainwave_Matrix_Intern/index.html",
+    "main.7eda831d.css.map": "/Brainwave_Matrix_Intern/static/css/main.7eda831d.css.map",
+    "main.8baf9f0e.js.map": "/Brainwave_Matrix_Intern/static/js/main.8baf9f0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eda831d.css",
+    "static/js/main.8baf9f0e.js"
+  ]
+}
